@@ -6,7 +6,7 @@ In order for this simulation to run properly, you will need [Logisim Evolution H
 ## Notes
 - This simulation will only work in Logisim Evolution Holy Cross Edition.
 - The CPU is made to be as exact as possible given the limitations of the software used to make the simulation.
-- The instruction set in this simulation may vary slightly from Ben Eater's instruction set.
+- The instruction set in this simulation may vary slightly from Ben Eater's instruction set.  Let me know if there are **ANY** descrepencies between the two instruction sets so that I can make the instructions exact to the original.
 - Simulation performance will vary from user to user.  I was able to get a maximum clock frequency of just over 500 hZ.
 
 ## Sample Programs
