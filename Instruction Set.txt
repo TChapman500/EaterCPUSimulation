@@ -5,12 +5,12 @@
 0100	STA	4x	(Store A)
 0101	LDI	5x	(Load A Immediate)
 0110	JMP	6x	(Unconditional Jump)
-0111	JC	7x	(Jump if Carry)
-1000	ADI	8x	(Add Immediate)
-1001	SBI	9x	(Subtract Immediate)
+0111		7x	
+1000		8x	
+1001		9x	
 1010		Ax
 1011		Bx
 1100		Cx
-1101		Dx
+1101	JC	Dx	(Jump if Carry)
 1110	OUT	Ex	(Output)
 1111	HLT	Fx	(Halt)
