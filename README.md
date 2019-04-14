@@ -10,7 +10,8 @@ In order for this simulation to run properly, you will need [Logisim Evolution H
 - Simulation performance will vary from user to user.  I was able to get a maximum clock frequency of just over 500 hZ.
 
 ## Sample Programs
-Both Fibonacci and SmallCounter work as intended.
+- SmallCounter will count from 0 to 255 and then wrap back around to zero.
+- Fibonacci will count the fibonacci number from 1 to 255 and then restart.
 
 ## Output Decoder
 The OnesPlace, TensPlace and HundredsPlace files contain the respective data for each decimal place on the seven-segment display, just in case the simulation starts off without any data in the respective ROMS.
