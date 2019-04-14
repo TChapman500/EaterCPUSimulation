@@ -21,4 +21,4 @@ The Microcode ROM is a 16-bit ROM with bit 0 being for the Jump if Carry flag.  
 ## Permissions
 - You have permission to fork this repository in order to help keep it up to date by creating pull requests.
   - Only create a pull request to update this simulation to match Ben Eater's CPU.
-- You have permission to clone this repository and do with the cloned respository as you please as long as you give me credit for the original simulation.
+- You have permission to fork/clone this repository and do with the clone/fork as you please as long as you give me credit for the original simulation.
