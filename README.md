@@ -1,7 +1,7 @@
 # Ben Eater CPU Simulation
 This is a simulation of [Ben Eater's Breadboard CPU](https://eater.net/8bit/) in Logisim.
 
-In order for this simulation to run properly, you will need [Logisim Evolution Holy Cross Edition](https://github.com/kevinawalsh/logisim-evolution).  Once you have installed Logisim, you can open the "NearExact.circ" file from within the simulation.
+In order for this simulation to run properly, you will need [Logisim Evolution (Holy Cross Edition)](https://github.com/kevinawalsh/logisim-evolution).  Once you have installed Logisim, you can open the "NearExact.circ" file from within the simulation.
 
 ## Notes
 - This simulation will only work in Logisim Evolution Holy Cross Edition.
