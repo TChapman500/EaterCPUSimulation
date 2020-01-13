@@ -20,9 +20,8 @@ The OnesPlace, TensPlace and HundredsPlace files contain the respective data for
 The Microcode ROM is a 17-bit ROM with bit 0 being for the Jump if Carry flag.  This is what makes the CPU Turing-complete.  Bits are Highest to lowest going from left to right.
 
 ## Permissions
-- You have permission to fork this repository in order to help keep it up to date by creating pull requests.
-  - Only create a pull request to update this simulation to better match Ben Eater's CPU.
 - You have permission to fork/clone this repository and do with the clone/fork as you please as long as you give me credit for the original simulation.
+- Only create pull requests if your fork intends to keep the simulation up to date.
 
 # Instruction Set
 The instruction set of this simulated processor is exactly the same as Ben Eater's processor.  The upper half of the opcode (bits 4-7) is the instruction code.  The lower half of the opcode is a 4-bit address or 4-bit number.  The opcode listing is in hexadecimal notation.
