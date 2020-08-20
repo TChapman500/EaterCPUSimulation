@@ -1,0 +1,18 @@
+#cpudef "EaterCPU"
+{
+	#bits 8
+	
+	NOP			-> 0x00
+	
+	LDA	{imm4}		-> 0x1 @ imm4[3:0]
+	ADD	{imm4}		-> 0x2 @ imm4[3:0]
+	SUB	{imm4}		-> 0x3 @ imm4[3:0]
+	STA	{imm4}		-> 0x4 @ imm4[3:0]
+	LDI	{imm4}		-> 0x5 @ imm4[3:0]
+	JMP	{imm4}		-> 0x6 @ imm4[3:0]
+	JC	{imm4}		-> 0x7 @ imm4[3:0]
+	JZ	{imm4}		-> 0x8 @ imm4[3:0]
+	
+	OUT			-> 0xE0
+	HLT			-> 0xF0
+}

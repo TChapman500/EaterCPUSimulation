@@ -1,7 +1,7 @@
 # Ben Eater CPU Simulation
 This is a simulation of [Ben Eater's Breadboard CPU](https://eater.net/8bit/) in Logisim.
 
-In order for this simulation to run properly, you will need [Logisim Evolution (Holy Cross Edition)](https://github.com/kevinawalsh/logisim-evolution).  Once you have installed Logisim, you can open the "NearExact.circ" file from within the simulation.
+In order for this simulation to run properly, you will need [Logisim Evolution (Holy Cross Edition)](https://github.com/kevinawalsh/logisim-evolution).  Once you have installed Logisim, you can open the "NearExact.circ" file from within the simulation.  The EaterCPU.cpu file is for use with [customasm](https://github.com/hlorenzi/customasm).
 
 ## Notes
 - This simulation will only work in Logisim Evolution Holy Cross Edition.
@@ -10,7 +10,10 @@ In order for this simulation to run properly, you will need [Logisim Evolution (
 - Simulation performance will vary from user to user.  I was able to get a maximum clock frequency of just over 500 Hz.
 
 ## Sample Programs
-- SmallCounter will count from 0 to 255 and then wrap back around to zero.
+- CountUp will count from 0 to 255 and then wrap back around to zero.
+- CountDown will count from 255 to 0 and then wrap back around to 255.
+- AddThree will count by 3 from 0 to 255 and then wrap back around to 0.
+- Double will add the previous result to itself, then wrap back around to 1.
 - Fibonacci will count the fibonacci number from 1 to 255 and then restart.
 
 ## Output Decoder

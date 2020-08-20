@@ -1,0 +1,9 @@
+BEGIN:
+	LDI	1
+	STA	7
+	LDI	0
+	OUT
+LOOP:
+	ADD	7
+	OUT
+	JMP	LOOP
